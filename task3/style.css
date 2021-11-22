@@ -1,0 +1,30 @@
+body{
+  background-image: url("compBG.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Anonymous Pro';
+  font-size: 18px;
+}
+
+div{
+  opacity: 0.9;
+}
+
+#title{
+  background-color: #DBD801;
+  font-family: 'Major Mono Display';
+  text-align: center;
+}
+
+#foot, #submission{
+  text-align: center;
+}
+
+#submission{
+  font-family: 'Major Mono Display';
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}

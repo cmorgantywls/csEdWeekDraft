@@ -1,0 +1,14 @@
+body{
+  background-image: url("bg.jpeg");
+  background-position: center;
+  height: 100%;
+  color: #ffffff;
+}
+
+nav{
+  opacity: 0.75;
+}
+
+.row{
+  text-align: center;
+}
