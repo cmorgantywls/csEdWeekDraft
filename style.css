@@ -1,0 +1,26 @@
+#instructionHint, #puzzleTitle, #title{
+  text-align: center;
+}
+
+#buttonRow{
+  padding:10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer{
+  padding:20px;
+  margin-top: 10px;
+  background-color: #FF865C;
+}
+
+#contact{
+  padding-top:10px;
+}
+
+#puzzleTitle, #title{
+  background-color: #FED835;
+}
