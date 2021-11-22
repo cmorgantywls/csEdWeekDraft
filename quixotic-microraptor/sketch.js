@@ -24,14 +24,14 @@ function draw() {
   }
 
   if(didYouWin(buttons)){
-    confirm("You won! \n Your next clue is [CLUE]. \n You can find your next task at [URL].")
+    confirm("You won! \n Your next clue is The person seen coding in JavaScript identified as female. \n You can find your next task at the URL linked at the bottom of the page!")
 
     hasWon = true
 
     let clueTitle = createElement('h3', 'You won!')
     clueTitle.parent("clue")
 
-    let clueText = createP("Your clue is [CLUE]. \n You can find your next task at [URL].")
+    let clueText = createP("<h4>Your clue is: the person seen coding in JavaScript identified as female.<h4> <p> <h4>You can find your next task at <a href='../educated-impatiens/index.html'>this link.</a></p></h4>")
     clueText.parent("clue")
 
     buttons.forEach(button =>{
