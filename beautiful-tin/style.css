@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: white;
+/*   background-color: #262626; */
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url('task5-bg.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+  opacity: 0.75;
+}
+
+a {
+  color: #00C9FF;
+/*   text-decoration: underline; */
+}
+
+.row{
+  text-align: center;
+}
+
+#canvas-holder{
+ text-align: center;
+}
+
+#input-holder {
+/*   display:inline; */
+}

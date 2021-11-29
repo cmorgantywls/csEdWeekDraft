@@ -1,0 +1,56 @@
+<!DOCTYPE html><html><head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="materialize.min.js"></script>
+
+    <title>CS Ed Week 2021 | Task #5</title>
+    <meta name="description" content="The fourth task in the NYC CS4All Scavenger Hunt created for Computer Science Education Week.">
+    <meta name="author" content="CS4All NYC">
+
+    <meta property="og:title" content="CS Ed Week 2021 | Task #5">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="The fifth task in the NYC CS4All Scavenger Hunt created for Computer Science Education Week.">
+    <meta property="og:image" content="../CSforAll_transparent_3301x2550.png">
+  </head>
+
+  <body>
+    <!-- nav bar-->
+    <div id="home button">
+      <a href="../index.html"><h3>🏠</h3></a>
+    </div>
+
+    <!-- main page -->
+    <div class="container">
+      <!-- title row -->
+      <div class="row">
+        <h1>CS Ed Week Task #5</h1>
+      </div>
+
+      <!-- instructions row -->
+      <div class="row">
+        <p>
+          Click anywhere on the page and use the arrow keys to start! Collect the green numbers to reveal a secret number in binary. If you run into the sides or the keys, you'll have to start over.</p>
+        <p>To solve the task, you'll need to decode 🔐 the number by converting from binary to decimal! Type the decoded number in the box below (here is a <a href="https://www.youtube.com/watch?v=VLflTjd3lWA&amp;ab_channel=TheOrganicChemistryTutor" target="_blank">helpful video</a> if you get stuck.)
+        </p>
+      </div>
+      <div class="row">
+        <p id="final-answer"></p>
+      </div>
+      <div class="row" id="input-holder"></div>
+      <br>
+      <div id="canvas-holder">
+        <script src="snake.js"></script>
+        <script src="sketch.js"></script>
+      </div>
+    </div>
+
+
+</body></html>
