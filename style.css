@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+#nav{
+  background-color: #0003A6;
+}
+
+#title{
+  margin-top:25px;
+}
+
+#button{
+  text-align: right;
+}
 #buttonRow{
   padding:10px;
 }

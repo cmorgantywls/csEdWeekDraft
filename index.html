@@ -30,11 +30,20 @@
 
   <body>
     <!-- nav bar-->
-    <nav class="navbar navbar-light bg-light">
-    <div class="container">
+    <nav class="navbar navbar-light" id="nav">
+      <script src="sketch.js"></script>
+    <div class="container-fluid">
+      <div class="col-5">
       <a class="navbar-brand" href="https://cs4all.nyc">
         <img src="./CSforAll_transparent_3301x2550.png" alt="CS4All Logo" width="150">
       </a>
+    </div>
+
+    <div class="col-7" id="button">
+
+          <a href="https://www.blueprint.cs4all.nyc/"><button class="btn btn-outline-light bg-primary me-2" type="button">Blueprint</button></a>
+
+      </div>
     </div>
   </nav>
 
@@ -128,8 +137,6 @@
         <h5>Thank you, Partners!</h5>
       </div>
     </div>
-
-    <script src="sketch.js"></script>
   </body>
 
 </html>
